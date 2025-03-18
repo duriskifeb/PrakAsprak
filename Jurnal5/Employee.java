@@ -31,20 +31,16 @@ public class Employee {
     }
 
     public void setDepartment(Department department) {
-        // a. Check if the department can accommodate more people
         if (department.canAddEmployee()) {
-            // b. If there's already a department, remove the employee from it
             if (this.department != null) {
                 this.department.deleteEmployee(this);
             }
-            // c. Add the employee to the new department
             department.addEmployee(this);
-            // d. Change the department field to the received department
-            this.department = department;
+            this.department = dep   artment;
         }
     }
 
-    @Override
+    
     public String toString() {
         return id + " " + name + " " + (department != null ? department.getName() : "No Department");
     }
