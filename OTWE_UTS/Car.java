@@ -18,6 +18,6 @@ public class Car extends Veichle{
 
     @Override
     public String toString() {
-            return super.toString() + ", Doors : " + 
+            return super.toString() + ", Doors : " + numDoors;
     }
 }
