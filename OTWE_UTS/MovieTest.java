@@ -11,7 +11,7 @@ public class MovieTest {
         };
 
         for(int inx = 0; inx < sfMovies.length; inx++) {
-            System.out.println(sfMovies[inx]); 
+            System.out.println(sfMovies[inx]);
             //ada hal menarik mengenai print! mengenai objeck .toString()
         }
     }
