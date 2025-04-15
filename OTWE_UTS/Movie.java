@@ -9,9 +9,8 @@ public class Movie {
         this.genre = genre;
     }
 
+    // ada hal menarik mengenai kenapa toString itu penting, karena karena kita bermain dnegan object agar data kita kita kelihatan harus pakek toString kalo tidak ya udah akan tampil
     public String toString() {
-        return "Judul : " + title + "Director : " + director + "Genre : " + genre; 
+        return "Judul : " + title + " Director : " + director + " Genre : " + genre; 
     }
-
-    
 }
