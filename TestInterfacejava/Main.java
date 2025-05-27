@@ -10,7 +10,7 @@ public class Main {
         //di buat objek Cigarette
         Cigarette cigratee = new Cigarette("Sampoerna mild", 8, 16500, 12);
 
-        //this print the detail of the object
+        //buat print display()
         System.out.println("-= Detail Electronic =-");
         smartphone.displayDetail();
 
